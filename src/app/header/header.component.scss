@@ -1,7 +1,7 @@
 .cover {
     background: url('/src/assets/images/background-header.png') center;
     background-size: cover;
-    min-height: 40rem;
+    min-height: 50rem;
     height: auto;
     border-radius: 0;
     width: 100%;
@@ -24,7 +24,7 @@
         margin: 0 auto; 
     }
 }
-    
+
 .bra-navbar {
    background: #30421e;
    height: 80px;
@@ -35,4 +35,12 @@
     background-color: black;
     transition: background-color 1s ease 0s;
     box-shadow: 0 0 4px grey;
+}
+
+.bra-logo {
+    margin-left: 30px;
+}
+
+.bg-transparent {
+    opacity: 3 !important;
 }
