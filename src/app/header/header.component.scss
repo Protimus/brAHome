@@ -32,7 +32,7 @@
 }
 
 .navbar.solid {
-    background-color: black;
+    background-color: #30421e;
     transition: background-color 1s ease 0s;
     box-shadow: 0 0 4px grey;
 }
@@ -41,6 +41,6 @@
     margin-left: 30px;
 }
 
-.bg-transparent {
-    opacity: 3 !important;
+.navbar {
+    background-color: rgba(70, 109, 61, 0.3);
 }

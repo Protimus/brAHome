@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
     $(document).ready(function() { 
       $(window).scroll(function() {
-        if($(this).scrollTop() > 10) { 
+        if($(this).scrollTop() > 800) { 
             $('.navbar').addClass('solid');
         } else {
             $('.navbar').removeClass('solid');
