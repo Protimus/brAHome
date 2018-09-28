@@ -1,13 +1,15 @@
 {
-  "name": "br-ahome",
+  "name": "brathena",
+  "author": "Rafael Pereira da Costa Gorges",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "node app.js",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
@@ -23,8 +25,11 @@
     "bootstrap": "^4.1.3",
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
     "rxjs": "^6.0.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "express": "^4.16.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.7.0",
@@ -46,5 +51,9 @@
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
     "typescript": "~2.7.2"
+  },
+  "engines": {
+    "node": "~8.9.1",
+    "npm": "6.0.0"
   }
 }
