@@ -1,5 +1,5 @@
 .cover {
-    background: url('/src/assets/images/background-header.png') center;
+    background: url('/assets/images/background-header.png') center;
     background-size: cover;
     min-height: 50rem;
     height: auto;
@@ -43,4 +43,15 @@
 
 .navbar {
     background-color: rgba(70, 109, 61, 0.3);
+}
+
+h1 {
+    font-family: Roboto Black;
+    font-size: 67px;
+}
+
+h5 {
+    font-family: Roboto Light;
+    font-size: 23px;
+    color: #dce3d6;
 }
