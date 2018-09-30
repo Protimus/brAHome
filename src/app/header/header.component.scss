@@ -1,7 +1,7 @@
 .cover {
     background: url('/assets/images/background-header.png') center;
     background-size: cover;
-    min-height: 50rem;
+    min-height: 45rem;
     height: auto;
     border-radius: 0;
     width: 100%;
@@ -48,15 +48,17 @@
 }
 
 h1 {
-    font-family: Roboto Black;
+    font-family: 'Roboto';
     font-size: 67px;
     margin-top: 270px;
+    font-weight: bold;
 }
 
 h5 {
-    font-family: Roboto Light;
+    font-family: 'Roboto';
     font-size: 23px;
     color: #dce3d6;
+    font-weight: 100;
 }
 
 .btn-git {
